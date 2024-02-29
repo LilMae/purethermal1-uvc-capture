@@ -68,3 +68,6 @@ def main():
         if data is None:
             break
         print(type(data))
+
+if __name__ == '__main__':
+    main()
