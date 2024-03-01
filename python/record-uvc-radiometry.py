@@ -15,7 +15,6 @@ import os
 BUF_SIZE = 2
 q = Queue(BUF_SIZE)
 
-
 def py_frame_callback(frame, userptr):
 
     array_pointer = cast(
